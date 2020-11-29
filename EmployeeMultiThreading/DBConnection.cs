@@ -5,8 +5,15 @@ using System.Text;
 
 namespace EmployeeMultiThreading
 {
+    /// <summary>
+    /// database connection class
+    /// </summary>
     class DBConnection
     {
+        /// <summary>
+        /// Gets the connection.
+        /// </summary>
+        /// <returns></returns>
         public SqlConnection GetConnection()
         {
 
