@@ -7,6 +7,10 @@ namespace EmployeeMultiThreading
 {
     class DBConnection
     {
+        /// <summary>
+        /// Gets the connection.
+        /// </summary>
+        /// <returns></returns>
         public SqlConnection GetConnection()
         {
 
